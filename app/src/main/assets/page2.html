@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Four card feature section</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+<br>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Home</a>
+    <a href="page2.html">Projects</a>
+
+    <a href="contact.html">Contact</a>
+</div>
+<span class="fl" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+  </script>
+<header>
+    <h1>Colby Visagie</h1>
+    <h2>Projects</h2>
+
+<p>Some of the Codes i've created</p>
+</header>
+<div class="cards">
+
+        <div class="card box1">
+            <h2>Hotel Booking</h2>
+            <P>A website that allows one to compare hotel prices aswell as check in and out</P>
+            <a href=" https://hotel-bookingphp.000webhostapp.com/">Open</a>
+
+    </div>
+
+        <div class="card box2">
+            <h2>Recipe</h2>
+            <P>A website of one my favourite Lasagna Recipe</P>
+            <a href="  https://thirsty-tesla-4731f6.netlify.app/">Open</a>
+        </div>
+        <div class="card box3">
+            <h2>Jewelery Store</h2>
+            <P>An e-commerce website where one can purchase high end jewelery</P>
+            <a href="  https://pasted-reaction.000webhostapp.com/index.html">Open</a>
+        </div>
+
+
+        <div class="card box4">
+            <h2>Music Quiz</h2>
+            <P>A music quiz with modern and old school musicians </P>
+            <a href="  https://anucleate-fabricati.000webhostapp.com/">Open</a>
+        </div>
+    </div>
+
+<footer>
+
+</footer>
+</body>
+</html>
